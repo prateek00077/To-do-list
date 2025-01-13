@@ -78,7 +78,7 @@ const Content = () => {
     setTodo(e.target.value)
   }
   return (
-    <div className='bg-slate-400 min-h-[80vh]'>
+    <div className='bg-slate-400 min-h-[80vh] pt-4'>
         <div className="flex justify-center">
         <div className=' text-black font-bold'>Add a task</div>
         <input onChange={handleChange} value={todo} type="text" className='w-80 mx-5' />

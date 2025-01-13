@@ -7,7 +7,7 @@ import Content from './components/Content'
 
 function App() {
   return (
-    <div className='md:container my-5 mx-3 md:mx-auto md:w-1/2'>
+    <div className='md:container my-5 mx-3 md:mx-auto md:w-1/2 flex flex-col'>
     <Navbar/>
     <Content/>
     </div>
